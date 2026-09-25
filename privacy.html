@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NAYOGI 개인정보처리방침 / Privacy Policy</title>
+<style>
+  :root {
+    --text: #1a1a1a;
+    --muted: #6b7280;
+    --bg: #ffffff;
+    --accent: #3b82f6;
+    --border: #e5e7eb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 0 20px 80px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; position: relative; }
+  .lang-toggle {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 100;
+    display: flex;
+    background: #f3f4f6;
+    border-radius: 999px;
+    padding: 4px;
+    font-size: 13px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  }
+  .lang-toggle button {
+    border: none;
+    background: transparent;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--muted);
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .lang-toggle button.active {
+    background: #ffffff;
+    color: var(--text);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+  }
+  header {
+    padding: 48px 0 24px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 32px;
+  }
+  h1 { font-size: 26px; margin: 0 0 8px; }
+  .updated { color: var(--muted); font-size: 14px; }
+  h2 {
+    font-size: 19px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  h3 { font-size: 16px; margin-top: 24px; margin-bottom: 8px; }
+  p, li { font-size: 15px; color: #333; }
+  ul { padding-left: 20px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 10px 12px;
+    text-align: left;
+  }
+  th { background: #f9fafb; font-weight: 600; }
+  .note {
+    background: #f3f4f6;
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 14px;
+    color: #4b5563;
+    margin: 16px 0;
+  }
+  footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 13px;
+  }
+  a { color: var(--accent); }
+  [data-lang="en"] { display: none; }
+  body.lang-en [data-lang="ko"] { display: none; }
+  body.lang-en [data-lang="en"] { display: block; }
+  body.lang-en table[data-lang="en"] { display: table; }
+</style>
+</head>
+<body>
+<div class="lang-toggle">
+  <button id="btn-ko" class="active" onclick="setLang('ko')">한국어</button>
+  <button id="btn-en" onclick="setLang('en')">English</button>
+</div>
+<div class="wrap">
+
+  <!-- ================= KOREAN ================= -->
+  <div data-lang="ko">
+  <header>
+    <h1>개인정보처리방침</h1>
+    <div class="updated">시행일: 2026년 9월 21일</div>
+  </header>
+
+  <p>
+    NAYOGI(이하 "서비스")는 이용자의 개인정보를 중요하게 생각하며,
+    「개인정보 보호법」 등 관련 법령을 준수하기 위해 노력하고 있습니다.
+    본 방침은 서비스가 어떤 개인정보를 수집하고, 어떻게 이용하며,
+    어떻게 보호하는지를 설명합니다.
+  </p>
+
+  <h2>1. 수집하는 개인정보 항목</h2>
+
+  <h3>1) 회원가입 및 로그인 시</h3>
+  <table>
+    <tr><th>구분</th><th>수집 항목</th></tr>
+    <tr><td>이메일 로그인</td><td>이메일 주소, 닉네임</td></tr>
+    <tr><td>Apple 로그인</td><td>Apple 계정 식별자, 이메일(제공 동의 시), 닉네임</td></tr>
+    <tr><td>Google 로그인</td><td>Google 계정 식별자, 이메일, 닉네임</td></tr>
+  </table>
+
+  <h3>2) 서비스 이용 중 수집되는 정보</h3>
+  <ul>
+    <li><strong>위치 정보</strong>: 이용자가 위치 공유 버튼을 누른 시점의 위도/경도 및 주소(역지오코딩 결과)</li>
+    <li><strong>그룹 활동 정보</strong>: 그룹 생성/참여/탈퇴 기록, 그룹 내 위치 공유 메모</li>
+    <li><strong>아바타 설정</strong>: 선택한 아바타 스타일 및 식별값(이미지 자체는 서버에 저장되지 않으며, 앱에 내장된 이미지 중 선택값만 저장)</li>
+    <li><strong>알림 기록</strong>: 그룹 내 활동(위치 공유, 멤버 참여/탈퇴)에 대한 인앱 알림 로그</li>
+    <li><strong>기기 정보</strong>: 로그인 세션 유지를 위한 인증 토큰</li>
+  </ul>
+
+  <div class="note">
+    본 서비스는 위치 정보를 <strong>이용자가 직접 "위치 공유" 버튼을 눌렀을 때만</strong> 수집합니다.
+    백그라운드에서 지속적으로 위치를 추적하지 않습니다.
+  </div>
+
+  <h2>2. 개인정보의 수집 및 이용 목적</h2>
+  <ul>
+    <li>회원 식별 및 로그인 인증</li>
+    <li>그룹 기반 위치 공유 서비스 제공</li>
+    <li>그룹 내 활동 알림 제공</li>
+    <li>서비스 부정 이용 방지 (로그인 시도 제한 등)</li>
+  </ul>
+
+  <h2>3. 개인정보의 보유 및 이용 기간</h2>
+  <table>
+    <tr><th>항목</th><th>보유 기간</th></tr>
+    <tr><td>회원 정보(이메일, 닉네임 등)</td><td>회원 탈퇴 시까지</td></tr>
+    <tr><td>위치 공유 기록</td><td>공유 후 24시간(단, 각 그룹 내 최신 위치 1건은 회원 탈퇴 또는 그룹 나가기 전까지 유지)</td></tr>
+    <tr><td>알림 기록</td><td>매주 월요일 00:00(KST) 자동 초기화</td></tr>
+    <tr><td>로그인 세션</td><td>로그아웃 또는 세션 만료 시까지</td></tr>
+  </table>
+  <p>회원 탈퇴 시 위 정보는 관련 법령에 특별한 규정이 없는 한 지체 없이 파기됩니다.</p>
+
+  <h2>4. 개인정보의 제3자 제공</h2>
+  <p>
+    서비스는 이용자의 개인정보를 원칙적으로 외부에 제공하지 않습니다.
+    다만 다음의 경우는 예외로 합니다.
+  </p>
+  <ul>
+    <li>이용자가 속한 <strong>그룹의 다른 멤버</strong>에게 닉네임, 아바타, 공유한 위치 및 메모가 표시됩니다.</li>
+    <li>법령에 따라 요구되는 경우</li>
+  </ul>
+
+  <h2>5. 개인정보의 처리 위탁</h2>
+  <table>
+    <tr><th>수탁 업체</th><th>위탁 업무</th></tr>
+    <tr><td>Supabase Inc.</td><td>데이터베이스 및 인증 인프라 운영</td></tr>
+    <tr><td>Google (Google Sign-In)</td><td>소셜 로그인 인증</td></tr>
+    <tr><td>Apple (Sign in with Apple)</td><td>소셜 로그인 인증</td></tr>
+  </table>
+
+  <h2>6. 이용자의 권리와 행사 방법</h2>
+  <ul>
+    <li>이용자는 언제든지 앱 내 "프로필 설정"에서 닉네임, 아바타 등 본인 정보를 수정할 수 있습니다.</li>
+    <li>이용자는 "회원탈퇴"를 통해 본인 계정 및 관련 데이터의 삭제를 요청할 수 있습니다.</li>
+    <li>기타 문의사항은 아래 연락처로 문의하실 수 있습니다.</li>
+  </ul>
+
+  <h2>7. 개인정보의 안전성 확보 조치</h2>
+  <ul>
+    <li>비밀번호 등 민감 인증 정보는 저장하지 않으며, 이메일 인증 및 소셜 로그인만 사용합니다.</li>
+    <li>데이터베이스 접근은 인증된 요청에 한해 허용됩니다.</li>
+    <li>모든 통신은 HTTPS를 통해 암호화됩니다.</li>
+  </ul>
+
+  <h2>8. 개인정보처리방침의 변경</h2>
+  <p>
+    본 방침은 법령, 정책 또는 서비스 내용의 변경에 따라 수정될 수 있으며,
+    변경 시 앱 내 공지 또는 본 페이지를 통해 고지합니다.
+  </p>
+
+  <h2>9. 개인정보의 국외 이전</h2>
+  <p>
+    서비스는 안정적인 서비스 제공을 위해 다음과 같이 이용자의 개인정보를
+    국외로 이전하고 있습니다.
+  </p>
+  <table>
+    <tr><th>이전받는 자</th><th>이전 국가</th><th>이전 항목</th><th>이전 목적</th><th>보유 및 이용 기간</th></tr>
+    <tr>
+      <td>Supabase, Inc.</td>
+      <td>미국(호스팅 리전: 대한민국 서울)</td>
+      <td>회원 정보, 위치 정보, 그룹 활동 정보 등 서비스 이용 전반의 데이터</td>
+      <td>데이터베이스 및 인증 인프라 운영</td>
+      <td>회원 탈퇴 또는 위탁 계약 종료 시까지</td>
+    </tr>
+    <tr>
+      <td>Google LLC</td>
+      <td>미국</td>
+      <td>Google 계정 식별자, 이메일</td>
+      <td>Google 소셜 로그인 인증</td>
+      <td>회원 탈퇴 시까지</td>
+    </tr>
+    <tr>
+      <td>Apple Inc.</td>
+      <td>미국</td>
+      <td>Apple 계정 식별자, 이메일(제공 동의 시)</td>
+      <td>Apple 소셜 로그인 인증</td>
+      <td>회원 탈퇴 시까지</td>
+    </tr>
+  </table>
+  <p>
+    이용자는 개인정보의 국외 이전을 거부할 권리가 있으며, 이 경우 해당 기능
+    (예: Google/Apple 로그인)의 이용이 제한될 수 있습니다.
+  </p>
+
+  <h2>10. 오픈소스 라이선스 고지</h2>
+  <p>
+    본 서비스의 아바타는 <a href="https://www.dicebear.com" target="_blank" rel="noopener">DiceBear</a>의
+    오픈소스 아바타 스타일을 사용하여 제작되었습니다. 아래는 사용된 스타일 중
+    저작자 표시(Attribution)가 요구되는 항목입니다.
+  </p>
+  <table>
+    <tr><th>스타일</th><th>제작자</th><th>라이선스</th></tr>
+    <tr>
+      <td>Adventurer Neutral</td>
+      <td><a href="https://www.instagram.com/lischi_art/" target="_blank" rel="noopener">Lisa Wischofsky</a></td>
+      <td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></td>
+    </tr>
+    <tr>
+      <td>Big Smile (Custom Avatar)</td>
+      <td><a href="http://www.ashleyseo.com/" target="_blank" rel="noopener">Ashley Seo</a></td>
+      <td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></td>
+    </tr>
+  </table>
+  <p>
+    그 외 사용된 스타일(Voxel Art, Voxel Bot, Lorelei, Clay, Thumbs)은
+    CC0 1.0(퍼블릭 도메인)으로 제공되어 저작자 표시가 필요하지 않습니다.
+    DiceBear 소프트웨어 자체는 MIT 라이선스로 제공됩니다.
+  </p>
+
+  <h2>11. 개인정보 보호책임자</h2>
+  <table>
+    <tr><th>구분</th><th>내용</th></tr>
+    <tr><td>성명</td><td>김수민</td></tr>
+    <tr><td>직책</td><td>서비스 운영자(개인 개발자)</td></tr>
+    <tr><td>연락처</td><td><a href="mailto:hello.nayogi@gmail.com">hello.nayogi@gmail.com</a></td></tr>
+  </table>
+  <p>
+    이용자는 서비스를 이용하며 발생한 모든 개인정보 관련 문의, 불만 처리,
+    피해 구제 등을 위 개인정보 보호책임자에게 문의할 수 있습니다.
+  </p>
+
+  <h2>12. 문의처</h2>
+  <p>
+    개인정보 관련 문의사항은 아래 이메일로 연락해 주시기 바랍니다.<br>
+    이메일: <a href="mailto:hello.nayogi@gmail.com">hello.nayogi@gmail.com</a>
+  </p>
+
+  <footer>
+    NAYOGI &middot; 개인정보처리방침 &middot; 최종 수정일 2026-09-21
+  </footer>
+  </div>
+
+  <!-- ================= ENGLISH ================= -->
+  <div data-lang="en">
+  <header>
+    <h1>Privacy Policy</h1>
+    <div class="updated">Effective Date: September 21, 2026</div>
+  </header>
+
+  <p>
+    NAYOGI (the "Service") values the privacy of its users and strives to comply
+    with the Personal Information Protection Act and other applicable laws of the
+    Republic of Korea. This policy explains what personal information the Service
+    collects, how it is used, and how it is protected.
+  </p>
+
+  <h2>1. Personal Information Collected</h2>
+
+  <h3>1) At Sign-up and Login</h3>
+  <table>
+    <tr><th>Method</th><th>Information Collected</th></tr>
+    <tr><td>Email Login</td><td>Email address, nickname</td></tr>
+    <tr><td>Sign in with Apple</td><td>Apple account identifier, email (if consented), nickname</td></tr>
+    <tr><td>Google Sign-In</td><td>Google account identifier, email, nickname</td></tr>
+  </table>
+
+  <h3>2) Information Collected During Use</h3>
+  <ul>
+    <li><strong>Location data</strong>: Latitude/longitude and address (reverse-geocoded) at the moment the user taps the "Share Location" button</li>
+    <li><strong>Group activity data</strong>: Records of creating/joining/leaving groups, and shared location notes within a group</li>
+    <li><strong>Avatar settings</strong>: The selected avatar style and identifier (the image itself is not stored on the server; only the selected value from images bundled with the app is stored)</li>
+    <li><strong>Notification logs</strong>: In-app notification logs for group activity (location shares, member joins/leaves)</li>
+    <li><strong>Device information</strong>: Authentication tokens used to maintain login sessions</li>
+  </ul>
+
+  <div class="note">
+    The Service only collects location data <strong>when the user actively taps the "Share Location" button</strong>.
+    It does not track location continuously in the background.
+  </div>
+
+  <h2>2. Purpose of Collection and Use</h2>
+  <ul>
+    <li>Member identification and login authentication</li>
+    <li>Providing group-based location-sharing features</li>
+    <li>Providing notifications for group activity</li>
+    <li>Preventing fraudulent use of the Service (e.g., limiting login attempts)</li>
+  </ul>
+
+  <h2>3. Retention and Use Period</h2>
+  <table>
+    <tr><th>Item</th><th>Retention Period</th></tr>
+    <tr><td>Member information (email, nickname, etc.)</td><td>Until account deletion</td></tr>
+    <tr><td>Location share records</td><td>24 hours after sharing (the most recent location per group is retained until account deletion or leaving the group)</td></tr>
+    <tr><td>Notification logs</td><td>Automatically reset every Monday at 00:00 (KST)</td></tr>
+    <tr><td>Login session</td><td>Until logout or session expiration</td></tr>
+  </table>
+  <p>Upon account deletion, the above information is destroyed without delay unless otherwise required by law.</p>
+
+  <h2>4. Provision of Information to Third Parties</h2>
+  <p>
+    The Service does not provide users' personal information to external parties, except in the following cases:
+  </p>
+  <ul>
+    <li>Nicknames, avatars, shared locations, and notes are displayed to <strong>other members of the same group</strong>.</li>
+    <li>When required by law.</li>
+  </ul>
+
+  <h2>5. Outsourcing of Data Processing</h2>
+  <table>
+    <tr><th>Processor</th><th>Task Outsourced</th></tr>
+    <tr><td>Supabase Inc.</td><td>Database and authentication infrastructure operation</td></tr>
+    <tr><td>Google (Google Sign-In)</td><td>Social login authentication</td></tr>
+    <tr><td>Apple (Sign in with Apple)</td><td>Social login authentication</td></tr>
+  </table>
+
+  <h2>6. User Rights and How to Exercise Them</h2>
+  <ul>
+    <li>Users may update their nickname, avatar, and other personal information at any time via "Profile Settings" in the app.</li>
+    <li>Users may request deletion of their account and related data via "Delete Account".</li>
+    <li>Other inquiries may be directed to the contact information below.</li>
+  </ul>
+
+  <h2>7. Security Measures</h2>
+  <ul>
+    <li>Sensitive credentials such as passwords are not stored; only email verification and social login are used.</li>
+    <li>Database access is permitted only for authenticated requests.</li>
+    <li>All communication is encrypted via HTTPS.</li>
+  </ul>
+
+  <h2>8. Changes to This Policy</h2>
+  <p>
+    This policy may be revised due to changes in law, policy, or the Service's features.
+    Any changes will be announced in-app or on this page.
+  </p>
+
+  <h2>9. Cross-Border Transfer of Personal Information</h2>
+  <p>
+    To provide a stable service, the Service transfers users' personal information
+    overseas as described below.
+  </p>
+  <table>
+    <tr><th>Recipient</th><th>Country</th><th>Items Transferred</th><th>Purpose</th><th>Retention Period</th></tr>
+    <tr>
+      <td>Supabase, Inc.</td>
+      <td>United States (hosting region: Seoul, South Korea)</td>
+      <td>Member information, location data, group activity data, and other service-related data</td>
+      <td>Database and authentication infrastructure operation</td>
+      <td>Until account deletion or termination of the outsourcing agreement</td>
+    </tr>
+    <tr>
+      <td>Google LLC</td>
+      <td>United States</td>
+      <td>Google account identifier, email</td>
+      <td>Google social login authentication</td>
+      <td>Until account deletion</td>
+    </tr>
+    <tr>
+      <td>Apple Inc.</td>
+      <td>United States</td>
+      <td>Apple account identifier, email (if consented)</td>
+      <td>Apple social login authentication</td>
+      <td>Until account deletion</td>
+    </tr>
+  </table>
+  <p>
+    Users have the right to refuse the overseas transfer of personal information;
+    doing so may limit the use of related features (e.g., Google/Apple login).
+  </p>
+
+  <h2>10. Open Source License Notice</h2>
+  <p>
+    The avatars in this Service are created using open-source avatar styles from
+    <a href="https://www.dicebear.com" target="_blank" rel="noopener">DiceBear</a>.
+    Below are the styles used that require attribution.
+  </p>
+  <table>
+    <tr><th>Style</th><th>Creator</th><th>License</th></tr>
+    <tr>
+      <td>Adventurer Neutral</td>
+      <td><a href="https://www.instagram.com/lischi_art/" target="_blank" rel="noopener">Lisa Wischofsky</a></td>
+      <td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></td>
+    </tr>
+    <tr>
+      <td>Big Smile (Custom Avatar)</td>
+      <td><a href="http://www.ashleyseo.com/" target="_blank" rel="noopener">Ashley Seo</a></td>
+      <td><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></td>
+    </tr>
+  </table>
+  <p>
+    Other styles used (Voxel Art, Voxel Bot, Lorelei, Clay, Thumbs) are provided
+    under CC0 1.0 (Public Domain) and do not require attribution.
+    DiceBear's software itself is provided under the MIT License.
+  </p>
+
+  <h2>11. Data Protection Officer</h2>
+  <table>
+    <tr><th>Item</th><th>Details</th></tr>
+    <tr><td>Name</td><td>Sumin Kim</td></tr>
+    <tr><td>Title</td><td>Service Operator (Individual Developer)</td></tr>
+    <tr><td>Contact</td><td><a href="mailto:hello.nayogi@gmail.com">hello.nayogi@gmail.com</a></td></tr>
+  </table>
+  <p>
+    Users may contact the Data Protection Officer above for any inquiries,
+    complaints, or remedies related to personal information arising from use of the Service.
+  </p>
+
+  <h2>12. Contact</h2>
+  <p>
+    For inquiries regarding personal information, please contact us at the email below.<br>
+    Email: <a href="mailto:hello.nayogi@gmail.com">hello.nayogi@gmail.com</a>
+  </p>
+
+  <footer>
+    NAYOGI &middot; Privacy Policy &middot; Last updated 2026-09-21
+  </footer>
+  </div>
+
+</div>
+<script>
+  function setLang(lang) {
+    document.body.classList.toggle('lang-en', lang === 'en');
+    document.getElementById('btn-ko').classList.toggle('active', lang === 'ko');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    try { localStorage.setItem('nayogi-lang', lang); } catch (e) {}
+  }
+  (function () {
+    try {
+      var saved = localStorage.getItem('nayogi-lang');
+      if (saved === 'en') setLang('en');
+    } catch (e) {}
+  })();
+</script>
+</body>
+</html>
